@@ -1,0 +1,11 @@
+User-Agent: *
+Allow: /
+Allow: /*.css
+Allow: /index.php
+Allow: /catalog.php
+Disallow: /registr.php
+Disallow: /login.php
+Disallow: /cart.php
+
+Host: http://sportick1.ru.swtest.ru/
+Sitemap: http://sportick1.ru.swtest.ru/sitemap.xml
