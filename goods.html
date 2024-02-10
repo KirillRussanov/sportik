@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Product Name - Sport Shop</title>
+    <link rel="stylesheet" href="catalog.css">
+    <link rel="stylesheet" href="goods.css">
+    <link rel="stylesheet" href="catalog.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-wrapper">
+            <a href="#" class="logo"><img src="img/logo.png" alt="Спортмастер"></a>
+            <nav>
+                <ul>
+                    <ul class="header-nav"></ul>
+                    <li class="header-list"><a href="index.html">Главная</a></li>
+                    <li class="header-list"><a href="catalog.html">Каталог</a></li>
+                    <li class="header-list"><a href="#">Акции</a></li>
+                    <li class="header-list"><a href="#">Доставка и оплата</a></li>
+                    <li class="header-list"><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="cart">
+                <a href="#">Корзина</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="product">
+            <div class="product-image">
+                <div class="product-photo">
+                    <img src="img/фубольная форма.jpeg" alt="Product Name">
+                </div>
+                <div class="product-info">
+                    <h1>Футбольная форма</h1>
+                    <p class="price">8 880 руб.</p>
+                    <p class="description">Наш интернет-магазин предлагает широкий выбор стильных и качественных
+                        футбольных форм для всех возрастов и уровней игры. Мы предлагаем уникальные дизайны, выполненные
+                        из легких и дышащих материалов, обеспечивающих комфорт и поддержку во время игры. У нас вы
+                        найдете формы от ведущих брендов по доступным ценам!</p>
+
+                    <label for="size">Размер:</label>
+                    <select id="size" name="size">
+                        <option value="s">S</option>
+                        <option value="m">M</option>
+                        <option value="l">L</option>
+                    </select>
+                    <label for="quantity">Количество:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
+                    <a href="cart.html"><button>Добавить в корзину</button></a>
+                </div>
+            </div>
+    </main>
+    <footer>
+        <div class="footer-wrapper">
+            <nav>
+                <ul>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="#">Акции</a></li>
+                    <li><a href="#">Доставка и оплата</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="footer-info">
+                <p>Интернет-магазин спортивных товаров &copy; 2023</p>
+                <p>Адрес: г. Чебоксары, ул. Спортивная, д. 1</p>
+                <p>Телефон: +7 (800) 555-35-35</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

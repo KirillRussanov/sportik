@@ -1,0 +1,316 @@
+/* Стили для шапки сайта */
+body {
+  margin: 0;
+}
+header {
+    background-color: #f5f5f5;
+    padding: 20px 0;
+  }
+  .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .logo {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .logo img {
+    max-height: 60px;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  nav li {
+    margin-right: 20px;
+  }
+  nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .header-user {
+    display: flex;
+    align-items: center;
+  }
+  .header-link {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 16px;
+  }
+  
+  /* Стили для блока с большой картинкой и кнопкой */
+  #hero {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  .hero-wrapper {
+    text-align: center;
+    position: absolute;
+  }
+  .hero-wrapper h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  .hero-wrapper p {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  .hero-button {
+    display: inline-block;
+    background-color: #ff6a00;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ;
+  }
+  /* Стили для блока с категориями
+  */
+#categories {
+    background-color: #f5f5f5;
+    padding: 80px 0;
+    }
+    .categories-wrapper h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    }
+    .categories-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    }
+    .category {
+    margin-right: 30px;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    overflow: hidden;
+    }
+    .category img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+    .category h3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.7);
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    }
+    
+    /* Стили для блока с лучшими продажами */
+    #bestsellers {
+    padding: 80px 0;
+    }
+    .bestsellers-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    }
+    .bestsellers-wrapper h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    }
+    .bestsellers-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+    .bestseller {
+    width: 300px;
+    margin: 0 20px 40px;
+    }
+    .bestseller img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    }
+    .bestseller h3 {
+    margin-top: 20px;
+    font-size: 24px;
+    }
+    .bestseller p {
+    margin-top: 10px;
+    font-size: 18px;
+    }
+    
+    /* Стили для подвала сайта */
+    footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    }
+    .footer-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    }
+    footer ul {
+    list-style: none;
+    display: flex;
+    }
+    footer li {
+    margin-right: 20px;
+    }
+    footer a {
+    color: #fff;
+    text-decoration: none;
+    }
+    .footer-info p {
+    margin-top: 20px;
+    }
+    .hero-img{
+        width: 1920px;
+        height: 500px;
+        position: relative;
+        top: 25px;
+    }
+    .hero-title{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) ;
+        color:  #fff;
+    }
+    .goods-img{
+        width: 20em;
+        height: 15em;
+    }
+    .goods-list{
+        
+    }
+    .goods-items{
+        list-style: none;
+    }
+    .goods-link{
+        text-decoration: none;
+        color: black;
+    }
+    .categories-title{
+        text-align: center;
+        font-size: 36px;
+    }
+    .categories{
+        width: 1440px;
+        margin: 0 auto;
+    }
+    .goods-block{
+        text-align: center;
+        width: 20em;
+        
+    }
+
+    .goods-wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header-list{
+        margin-left: 2em;
+    }
+   .popular-products{
+       width: 1440px;
+       margin: 0 auto;
+   } 
+ 
+
+
+   @media only screen and (max-width: 600px) {
+    /* Стили для мобильных устройств */
+    .header {
+      font-size: 24px;
+      padding: 10px;
+    }
+  
+    .main {
+      font-size: 16px;
+      padding: 10px;
+    }
+  
+    .footer {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .container {
+      max-width: 100%;
+      margin: 0;
+    }
+  
+    .header {
+      padding: 10px;
+    }
+  
+    .logo img {
+      width: 100%;
+      max-width: 200px;
+      margin-bottom: 10px;
+    }
+  
+    .nav {
+      display: none;
+    }
+  
+    .hamburger {
+      display: block;
+      margin-right: 10px;
+    }
+  
+    .hero {
+      height: 300px;
+      background-size: cover;
+      background-position: center;
+    }
+  
+    .main {
+      padding: 10px;
+    }
+  
+    .product-card {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .product-card img {
+      width: 100%;
+    }
+  
+    .product-card .product-name {
+      font-size: 24px;
+    }
+  
+    .product-card .product-price {
+      font-size: 20px;
+    }
+  
+    .footer {
+      padding: 10px;
+      font-size: 12px;
+    }
+  }
