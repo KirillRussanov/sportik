@@ -7,5 +7,5 @@ Disallow: /registr.php
 Disallow: /login.php
 Disallow: /cart.php
 
-Host: http://sportick1.ru.swtest.ru/
-Sitemap: http://sportick1.ru.swtest.ru/sitemap.xml
+Host: http://sportikk.netlify.app/
+Sitemap: http://sportikk.netlify.app/sitemap.xml/
