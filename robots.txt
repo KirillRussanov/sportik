@@ -3,9 +3,6 @@ Allow: /
 Allow: /*.css
 Allow: /index.php
 Allow: /catalog.php
-Disallow: /registr.php
-Disallow: /login.php
-Disallow: /cart.php
 
 Host: http://sportikk.netlify.app/
 Sitemap: http://sportikk.netlify.app/sitemap.xml
