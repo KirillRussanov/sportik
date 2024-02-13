@@ -1,8 +1,8 @@
 User-Agent: *
 Allow: /
 Allow: /*.css
-Allow: /index.php
-Allow: /catalog.php
+Allow: /index.html
+Allow: /catalog.html
 
 Host: http://sportikk.netlify.app/
 Sitemap: http://sportikk.netlify.app/sitemap.xml
