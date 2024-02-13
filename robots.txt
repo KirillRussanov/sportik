@@ -8,4 +8,4 @@ Disallow: /login.php
 Disallow: /cart.php
 
 Host: http://sportikk.netlify.app/
-Sitemap: http://sportikk.netlify.app/sitemap.xml/
+Sitemap: http://sportikk.netlify.app/sitemap.xml
